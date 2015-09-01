@@ -1,0 +1,27 @@
+{
+  "name": "wrseward/pdf-parser",
+  "description": "PHP library to parse text from PDF files",
+  "keywords": ["pdf", "pdf-parser", "pdftotext", "parser"],
+  "homepage": "https://github.com/wrseward/pdf-parser",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wrseward",
+      "email": "wrseward@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/process": "~2.7"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "~2.2",
+    "mikey179/vfsStream": "~1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wrseward\\PdfParser\\": "src/"
+    }
+  }
+}
