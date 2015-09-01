@@ -42,7 +42,6 @@ which pdftotext
 
 ```php
 $parser = new \Wrseward\PdfParser\Pdf\PdfToTextParser('/usr/bin/pdftotext');
-
 $parser->parse('/path/to/file.pdf');
 echo $parser->text();
 ```
@@ -50,9 +49,9 @@ echo $parser->text();
 ## Running tests
 
 ```bash
-./vendor/bin/phpunit
+./vendor/bin/phpspec run
 ```
 
 ## License
 
-MIT
+[MIT](https://github.com/wrseward/pdf-parser/blob/master/LICENSE)
