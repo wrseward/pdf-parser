@@ -59,13 +59,15 @@ class Process implements ProcessInterface
         $error  = $this->process->getErrorOutput();
 
         if ($status !== 0 and $error !== '') {
-            throw new \RuntimeException(sprintf(
-                'The exit status code \'%s\' says something went wrong:' . "\n"
-                . 'stderr: "%s"' . "\n"
-                . 'stdout: "%s"' . "\n"
-                . 'command: %s.',
-                $status, $error, $this->process->getOutput(), $this->command
-            ));
+            throw new \RuntimeException(
+                sprintf(
+                    "The exit status code %s says something went wrong:\n stderr: %s\n stdout: %s\ncommand: %s.",
+                    $status,
+                    $error,
+                    $this->process->getOutput(),
+                    $this->command
+                )
+            );
         }
     }
 
