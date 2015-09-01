@@ -2,6 +2,8 @@
 
 PHP library to parse PDF files to text. A wrapper for pdftotext.
 
+[![Build Status](https://travis-ci.org/wrseward/pdf-parser.svg?branch=master)](https://travis-ci.org/wrseward/pdf-parser)
+
 ## Installation
 
 Via Composer
