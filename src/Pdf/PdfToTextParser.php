@@ -69,7 +69,7 @@ class PdfToTextParser implements PdfParserInterface
      */
     protected function validateSelf()
     {
-        if ($this->binary === null || $this->binary === '') {
+        if (empty($this->binary)) {
             throw new PdfBinaryNotDefinedException('You must set a location for the pdftotext binary');
         }
 
