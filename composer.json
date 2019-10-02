@@ -12,8 +12,8 @@
     }
   ],
   "require": {
-    "php": ">=5.3.3",
-    "symfony/process": "~2.7"
+    "php": "^7.3",
+    "symfony/process": "^4.3"
   },
   "require-dev": {
     "phpspec/phpspec": "~2.2",
