@@ -19,12 +19,6 @@
     "phpspec/phpspec": "^5.0",
     "mikey179/vfsStream": "~1.5"
   },
-  "respositories": [
-	  {
-        "type": "vcs",
-        "url": "git@github.com:e-abarreto/pdf-parser.git"
-        }
-  ],
   "autoload": {
     "psr-4": {
       "Wrseward\\PdfParser\\": "src/"
