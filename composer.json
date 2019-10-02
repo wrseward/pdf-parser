@@ -12,13 +12,19 @@
     }
   ],
   "require": {
-    "php": "^7.3",
+    "php": "^7.2",
     "symfony/process": "^4.3"
   },
   "require-dev": {
-    "phpspec/phpspec": "~2.2",
+    "phpspec/phpspec": "^5.0",
     "mikey179/vfsStream": "~1.5"
   },
+  "respositories": [
+	  {
+        "type": "vcs",
+        "url": "git@github.com:e-abarreto/pdf-parser.git"
+        }
+  ],
   "autoload": {
     "psr-4": {
       "Wrseward\\PdfParser\\": "src/"
